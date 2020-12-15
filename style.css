@@ -4,7 +4,8 @@
     margin-left: 40px;
     font-family:'Fjalla One', sans-serif;
     font-size: 40px;
-    background-color: rgb(97, 15, 97);
+    background-color: navy;
+    padding: 12px;
 }
 
 .navbar-nav {
@@ -18,12 +19,34 @@ body {
     margin: 0;
     font-size: 18px;
     line-height: 1.5;
-    color: rgb(97, 15, 97);
-    background: lightblue
+    background: lightblue;
 }
 
 .container {
     margin-top: 80px;
     margin-left: 40px;
     background: snow;
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    color: navy;
+    padding-top: 12px;
+}
+
+#bioimage {
+    float: left;
+    margin-right: 20px;
+    padding-bottom: 40px;
+}
+
+#clearfix {
+    overflow: auto;
+}
+
+p {
+    text-align: justify;
+   
+    
 }
