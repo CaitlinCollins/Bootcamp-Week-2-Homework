@@ -5,9 +5,10 @@ body {
 }
 
 h1 {
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 40px;
-    color: snow;
+    font-weight: bold;
+    color: rgb(2, 2, 56);
     padding-top: 12px;
 }
 
@@ -34,10 +35,9 @@ nav {
 
 .navbar-brand {
     margin-left: 40px;
-    font-family:'Fjalla One', sans-serif;
-    font-size: 40px;
-    background-color: rgb(192, 185, 197);
-    color: snow;
+    font-family:'Limelight', cursive;
+    font-size: 24px;
+    color: rgb(2, 2, 56);
     padding: 12px;
 }
 
