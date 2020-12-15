@@ -33,21 +33,27 @@ p {
     }
 }
 
-nav {
-    background-color: snow;
-    width: auto;
-}
-
 a {
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
+    color: rgb(192, 185, 197);
+}
+
+nav {
+    background-color: rgb(2, 2, 56);
+    width: auto;
+    border-bottom-style: solid;
+    border-width: 8px;
+    border-color: rgb(192, 185, 197);
 }
 
 .navbar-brand {
     font-family:'Limelight', cursive;
     font-size: 24px;
-    color: rgb(2, 2, 56);
-    padding: 12px 0px 12px 40px;
+    color: snow;
+    background-color: rgb(2, 2, 56);
+    padding: 12px;
+    margin-left: 40px;
 }
 
 .navbar-nav {
@@ -76,5 +82,13 @@ a {
     padding: 10px 0px;
 }
 
+footer {
+    background-color: rgb(2, 2, 56);
+    height: 80px;
+    width: 100%;
+    border-top-style: solid;
+    border-width: 8px;
+    border-color: rgb(192, 185, 197);
+}
 
 
