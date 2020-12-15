@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-image: url(https://i.stack.imgur.com/l0JyZ.jpg);
+    background-image: url(assets/backrougnd1.jpg);
 }
 
 h1 {
@@ -23,7 +23,7 @@ p {
     line-height: 1.5;
     text-align: justify;
     color: rgb(2, 2, 56); 
-    margin: 0px 20px 20px 20px;
+    margin: 0px 20px 40px 20px;
 }
 
 @media (max-width: 600px) {
@@ -34,9 +34,16 @@ p {
 }
 
 a {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Inknut Antiqua', sans-serif;
     font-size: 18px;
     color: rgb(192, 185, 197);
+}
+a:hover {
+    color: snow;
+}
+
+a:active {
+    color: rgb(174, 0, 255);
 }
 
 nav {
@@ -91,4 +98,9 @@ footer {
     border-color: rgb(192, 185, 197);
 }
 
+.active {
+    color: rgb(174, 0, 255);
+    font-weight: bold;
+    font-size: 18px;
+}
 
