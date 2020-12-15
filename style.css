@@ -1,7 +1,14 @@
 .navbar-brand {
     margin-left: 40px;
+    font-family:'Fjalla One', sans-serif;
+    font-size: 40px;
+    background-color: rgb(97, 15, 97);
 }
 
 .navbar-nav {
     margin-left: auto;
+
+}
+.nav-item {
+    color: rgb(97, 15, 97);
 }
