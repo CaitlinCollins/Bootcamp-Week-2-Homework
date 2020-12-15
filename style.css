@@ -9,7 +9,11 @@ h1 {
     font-size: 40px;
     font-weight: bold;
     color: rgb(2, 2, 56);
-    padding-top: 12px;
+    padding: 50px 20px 10px 20px;
+}
+
+hr {
+    margin: 20px;
 }
 
 p {
@@ -19,6 +23,7 @@ p {
     line-height: 1.5;
     text-align: justify;
     color: rgb(2, 2, 56); 
+    margin: 0px 20px 20px 20px;
 }
 
 a {
@@ -55,7 +60,9 @@ nav {
 #bioimage {
     float: left;
     margin-right: 20px;
-    padding-bottom: 40px;
+    margin-left: 20px;
+    padding: 10px 20px 5px 0px;
+    
 }
 
 
