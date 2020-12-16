@@ -1,3 +1,4 @@
+/****** Body Style ******/
 body {
     box-sizing: border-box;
     padding: 0;
@@ -5,24 +6,39 @@ body {
     background-image: url(assets/backrougnd1.jpg);
 }
 
+/****** Header Style ******/
+header {
+    padding: 40px 0px;
+}
+
+/****** Section Style ******/
+section {
+    padding: 80px 0px;
+}
+
+
+/****** Article Style ******/
 article {
     background-color: rgb(192, 185, 197);
     overflow: auto;
+    margin-left: 40px;
 }
 
+/****** H1 Style ******/
 h1 {
     font-family: 'Inknut Antiqua', serif;
     font-size: 40px;
     font-weight: bold;
     color: rgb(2, 2, 56);
     padding: 40px 0px 0px 40px;
-   
 }
 
+/****** Horizontal Rule Margins ******/
 hr {
     margin: 20px 40px;
 }
 
+/****** Paragraph Style ******/
 p {
     font-size: 20px;
     font-weight: bold;
@@ -33,19 +49,24 @@ p {
     padding: 0px 40px 10px 0px;
 }
 
+/****** Link Style ******/
 a {
     font-family: 'Inknut Antiqua', sans-serif;
     font-size: 18px;
     color: rgb(192, 185, 197);
 }
+
+/****** Link Hover Style ******/
 a:hover {
     color: snow;
 }
 
+/****** Link Active Style ******/
 a:active {
     color: rgb(174, 0, 255);
 }
 
+/****** Navigation Style ******/
 nav {
     background-color: rgb(2, 2, 56);
     width: auto;
@@ -54,6 +75,7 @@ nav {
     border-color: rgb(192, 185, 197);
 }
 
+/****** Navbar Brand (Name) Style******/
 .navbar-brand {
     font-family:'Limelight', cursive;
     font-size: 24px;
@@ -62,26 +84,21 @@ nav {
     margin-left: 40px;
 }
 
-article {
-    margin: 80px 40px 160px 40px;
-    background-color: rgb(192, 185, 197);
-    width: 80%;
-    height: 80%;
-    overflow: auto;
-}
-
+/****** Form Padding ******/
 form {
-    padding-bottom: 60px;
+    padding: 40px 40px 60px 40px;
 }
 
+/****** Button Style 
 button {
-    margin-bottom: 80px;
+    margin: 0px 40px 60px 40px;
     width: 100%;
     height: 60px;
     background-color: rgb(2, 2, 56);
 
 }
 
+/****** Bio Image Style ******/
 #bioimage {
     float: left;
     max-width: 600px;
@@ -90,6 +107,7 @@ button {
    
 }
 
+/****** Footer Style ******/
 footer {
     background-color: rgb(2, 2, 56);
     height: 80px;
@@ -102,6 +120,7 @@ footer {
     border-color: rgb(192, 185, 197);
 }
 
+/***** Current Link Style ******/
 .active {
     color: rgb(174, 0, 255);
     font-weight: bold;
