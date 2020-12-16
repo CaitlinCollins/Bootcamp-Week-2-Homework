@@ -26,13 +26,6 @@ p {
     margin: 0px 20px 40px 20px;
 }
 
-@media (max-width: 600px) {
-    p {
-        margin: 20px 0px 20px 20px;
-        padding-right: 24px;
-    }
-}
-
 a {
     font-family: 'Inknut Antiqua', sans-serif;
     font-size: 18px;
@@ -66,23 +59,13 @@ nav {
 .navbar-nav {
     margin-left: auto;
     padding-right: 40px;
-   
 }
+
 
 .container {
     margin: 80px 40px 160px 40px;
     background-color: rgb(192, 185, 197);
     overflow: auto;
-}
-
-@media (max-width: 600px){
-    .container {
-        margin: 40px 0px 120px 0px;
-    }
-    nav {
-        height: 80px;
-
-    }
 }
 
 form {
@@ -121,5 +104,19 @@ footer {
     color: rgb(174, 0, 255);
     font-weight: bold;
     font-size: 18px;
+}
+
+@media screen and (max-width: 480px){
+    .container {
+        margin: 40px 0px 120px 0px;
+    }
+    nav {
+        height: 80px;
+
+    }
+    p {
+        margin: 20px 0px 20px 20px;
+        padding-right: 24px;
+    }
 }
 
