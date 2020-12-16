@@ -6,16 +6,61 @@ body {
     background-image: url(assets/backrougnd1.jpg);
 }
 
+/****** Navigation Style ******/
+nav {
+    border-bottom-style: solid;
+    border-width: 8px;
+    border-color: rgb(192, 185, 197);
+}
+
+/****** Navbar Brand (Name) Style ******/
+.navbar-brand {
+    font-family:'Limelight', cursive;
+    font-size: 20px;
+    background-color: rgb(2, 2, 56);
+    color: snow !important;
+    padding: 12px;
+    margin-left: 20px;
+}
+
+/****** Navbar Button Margin ******/
+.navbar-toggler {
+    margin-right: 20px;
+}
+
+/****** Move UL to Right Side ******/
+ul {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+/****** Link Style ******/
+a {
+    font-family: 'Inknut Antiqua', sans-serif;
+    font-size: 16px;
+    color: rgb(2,2,96) !important;
+}
+
+/****** Link Hover Style ******/
+a:hover {
+    color: rgb(192, 185, 197) !important;
+}
+
+/****** Link Active Style ******/
+a:active {
+    color: magenta !important; 
+}
+
+/***** Current Link Style ******/
+.active {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 /****** Header Style ******/
 header {
     padding: 40px 0px;
 }
-
-/****** Section Style ******/
-section {
-    padding: 80px 0px;
-}
-
 
 /****** Article Style ******/
 article {
@@ -38,6 +83,13 @@ hr {
     margin: 20px 40px;
 }
 
+/****** Bio Image Style ******/
+.bioimg {
+    float: left;
+    padding: 10px 40px 40px 40px;
+   
+}
+
 /****** Paragraph Style ******/
 p {
     font-size: 20px;
@@ -47,52 +99,6 @@ p {
     text-align: justify;
     color: rgb(2, 2, 56); 
     padding: 0px 40px 10px 0px;
-}
-
-/****** Move UL to Right Side ******/
-ul {
-    margin-left: auto;
-    margin-right: 20px;
-}
-
-/****** Link Style ******/
-a {
-    font-family: 'Inknut Antiqua', sans-serif;
-    font-size: 18px;
-    color: rgb(192, 185, 197);
-}
-
-/****** Link Hover Style ******/
-a:hover {
-    color: snow;
-}
-
-/****** Link Active Style ******/
-a:active {
-    color: rgb(174, 0, 255);
-}
-
-/****** Navigation Style ******/
-nav {
-    background-color: rgb(2, 2, 56);
-   
-    border-bottom-style: solid;
-    border-width: 8px;
-    border-color: rgb(192, 185, 197);
-}
-
-/****** Navbar Brand (Name) Style ******/
-.navbar-brand {
-    font-family:'Limelight', cursive;
-    font-size: 24px;
-    background-color: rgb(2, 2, 56);
-    padding: 12px;
-    margin-left: 20px;
-}
-
-/****** Navbar Button Margin ******/
-.navbar-toggler {
-    margin-right: 20px;
 }
 
 /****** Form Padding ******/
@@ -109,16 +115,18 @@ form {
 
 }
 
-/****** Bio Image Style ******/
-.bioimg {
-    float: left;
-    padding: 10px 40px 40px 40px;
-   
+/****** Section Style ******/
+section {
+    padding: 80px 0px;
 }
 
 /****** Footer Style ******/
 footer {
-    background-color: rgb(2, 2, 56);
+    background-color: snow;
+    color: rgb(2, 2, 56);
+    font-family: 'Inknut Antiqua', sans-serif;
+    text-align: center;
+    padding-top: 20px;
     height: 80px;
     width: 100%;
     position: fixed;
@@ -129,12 +137,7 @@ footer {
     border-color: rgb(192, 185, 197);
 }
 
-/***** Current Link Style ******/
-.active {
-    color: rgb(174, 0, 255);
-    font-weight: bold;
-    font-size: 18px;
-}
+
 
 
 
