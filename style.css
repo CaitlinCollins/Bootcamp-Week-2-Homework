@@ -67,6 +67,7 @@ article {
 	background-color: rgb(192, 185, 197);
 	overflow: auto;
 	margin: 0px 40px;
+	padding: 0px 20px;
 }
 
 /****** H1 Style ******/
@@ -87,6 +88,15 @@ hr {
 .bioimg {
 	float: left;
 	padding: 10px 40px 40px 40px;
+}
+
+/****** Portfolio Image Style ******/
+.portimg {
+	padding: 20px 0px;
+}
+
+.portimgwide {
+	padding: 20px 0px 0px 0px;
 }
 
 /****** Paragraph Style ******/
@@ -135,7 +145,9 @@ footer {
 	border-color: rgb(192, 185, 197);
 }
 
-/****** Special margins for screens under 576px ******/
+/****** Special styling for screens under 768px ******/
+
+/****** Special styling for screens under 576px ******/
 @media only screen and (max-width: 576px) {
 	article {
 		margin: 0;
