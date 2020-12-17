@@ -67,7 +67,7 @@ article {
 	background-color: rgb(192, 185, 197);
 	overflow: auto;
 	margin: 0px 40px;
-	padding: 0px 20px;
+	padding: 0px 20px 80px 20px;
 }
 
 /****** H1 Style ******/
@@ -117,8 +117,8 @@ form {
 
 /****** Button Style ******/
 .contactbtn {
-	margin: 0px 40px 60px 40px;
-	width: 100%;
+	margin-left: 40px;
+	width: 100px;
 	height: 60px;
 	background-color: rgb(2, 2, 56);
 }
@@ -146,10 +146,32 @@ footer {
 }
 
 /****** Special styling for screens under 768px ******/
-
-/****** Special styling for screens under 576px ******/
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
+	article {
+		margin-left: 20px;
+		padding: 20px 20px 40px 20px;
+	}
+	form {
+		padding: 0px 0px 20px 0px;
+	}
+	.contactbtn,
+	h1,
+	hr {
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		text-align: center;
+	}
+	p,
+	.bioimg {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+/****** Special styling for screens under 600px ******/
+@media only screen and (max-width: 600px) {
 	article {
 		margin: 0;
+		padding: 0px 10px 40px 10px;
 	}
 }
