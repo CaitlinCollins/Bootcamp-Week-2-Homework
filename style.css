@@ -1,145 +1,143 @@
 /****** Body Style ******/
 body {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    background-image: url(assets/backrougnd1.jpg);
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	background-image: url(assets/backrougnd1.jpg);
 }
 
 /****** Navigation Style ******/
 nav {
-    border-bottom-style: solid;
-    border-width: 8px;
-    border-color: rgb(192, 185, 197);
+	border-bottom-style: solid;
+	border-width: 8px;
+	border-color: rgb(192, 185, 197);
 }
 
 /****** Navbar Brand (Name) Style ******/
 .navbar-brand {
-    font-family:'Limelight', cursive;
-    font-size: 20px;
-    background-color: rgb(2, 2, 56);
-    color: snow !important;
-    padding: 12px;
-    margin-left: 20px;
+	font-family: "Limelight", cursive;
+	font-size: 20px;
+	background-color: rgb(2, 2, 56);
+	color: snow !important;
+	padding: 12px;
+	margin-left: 20px;
 }
 
 /****** Navbar Button Margin ******/
 .navbar-toggler {
-    margin-right: 20px;
+	margin-right: 20px;
 }
 
 /****** Move UL to Right Side ******/
 ul {
-    margin-left: auto;
-    margin-right: 20px;
+	margin-left: auto;
+	margin-right: 20px;
 }
 
 /****** Link Style ******/
 a {
-    font-family: 'Inknut Antiqua', sans-serif;
-    font-size: 16px;
-    color: rgb(2,2,96) !important;
+	font-family: "Inknut Antiqua", sans-serif;
+	font-size: 16px;
+	color: rgb(2, 2, 96) !important;
 }
 
 /****** Link Hover Style ******/
 a:hover {
-    color: rgb(192, 185, 197) !important;
+	color: rgb(192, 185, 197) !important;
 }
 
 /****** Link Active Style ******/
 a:active {
-    color: magenta !important; 
+	color: magenta !important;
 }
 
 /***** Current Link Style ******/
 .active {
-    font-weight: bold;
-    font-size: 18px;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 /****** Header Style ******/
 header {
-    padding: 40px 0px;
+	padding: 40px 0px;
 }
 
 /****** Article Style ******/
 article {
-    background-color: rgb(192, 185, 197);
-    overflow: auto;
-    margin-left: 40px;
+	background-color: rgb(192, 185, 197);
+	overflow: auto;
+	margin: 0px 40px;
 }
 
 /****** H1 Style ******/
 h1 {
-    font-family: 'Inknut Antiqua', serif;
-    font-size: 40px;
-    font-weight: bold;
-    color: rgb(2, 2, 56);
-    padding: 40px 0px 0px 40px;
+	font-family: "Inknut Antiqua", serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: rgb(2, 2, 56);
+	padding: 40px 0px 0px 40px;
 }
 
 /****** Horizontal Rule Margins ******/
 hr {
-    margin: 20px 40px;
+	margin: 20px 40px;
 }
 
 /****** Bio Image Style ******/
 .bioimg {
-    float: left;
-    padding: 10px 40px 40px 40px;
-   
+	float: left;
+	padding: 10px 40px 40px 40px;
 }
 
 /****** Paragraph Style ******/
 p {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
-    line-height: 1.5;
-    text-align: justify;
-    color: rgb(2, 2, 56); 
-    padding: 0px 40px 10px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Quicksand", sans-serif;
+	line-height: 1.5;
+	text-align: justify;
+	color: rgb(2, 2, 56);
+	padding: 0px 40px 10px 40px;
 }
 
 /****** Form Padding ******/
 form {
-    padding: 40px 40px 60px 40px;
+	padding: 40px 40px 60px 40px;
 }
 
 /****** Button Style ******/
 .contactbtn {
-    margin: 0px 40px 60px 40px;
-    width: 100%;
-    height: 60px;
-    background-color: rgb(2, 2, 56);
-
+	margin: 0px 40px 60px 40px;
+	width: 100%;
+	height: 60px;
+	background-color: rgb(2, 2, 56);
 }
 
 /****** Section Style ******/
 section {
-    padding: 80px 0px;
+	padding: 80px 0px;
 }
 
 /****** Footer Style ******/
 footer {
-    background-color: snow;
-    color: rgb(2, 2, 56);
-    font-family: 'Inknut Antiqua', sans-serif;
-    text-align: center;
-    padding-top: 20px;
-    height: 80px;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    border-top-style: solid;
-    border-width: 8px;
-    border-color: rgb(192, 185, 197);
+	background-color: snow;
+	color: rgb(2, 2, 56);
+	font-family: "Inknut Antiqua", sans-serif;
+	text-align: center;
+	padding-top: 20px;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	border-top-style: solid;
+	border-width: 8px;
+	border-color: rgb(192, 185, 197);
 }
 
-
-
-
-
-
-
+/****** Special margins for screens under 576px ******/
+@media only screen and (max-width: 576px) {
+	article {
+		margin: 0;
+	}
+}
