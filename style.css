@@ -28,6 +28,12 @@ nav {
 	margin-right: 20px;
 }
 
+/****** Navbar Collapsed Menu ******/
+.navbar-collapse {
+	text-align: center;
+	padding-top: 20px;
+}
+
 /****** Move UL to Right Side ******/
 ul {
 	margin-left: auto;
@@ -67,7 +73,7 @@ article {
 	background-color: rgb(192, 185, 197);
 	overflow: auto;
 	margin: 0px 40px;
-	padding: 0px 20px 80px 20px;
+	padding: 0px 20px 60px 20px;
 }
 
 /****** H1 Style ******/
@@ -76,27 +82,28 @@ h1 {
 	font-size: 40px;
 	font-weight: bold;
 	color: rgb(2, 2, 56);
-	padding: 40px 0px 0px 40px;
+	padding: 40px 0px 0px 20px;
 }
 
 /****** Horizontal Rule Margins ******/
 hr {
-	margin: 20px 40px;
+	margin: 20px;
 }
 
 /****** Bio Image Style ******/
 .bioimg {
 	float: left;
-	padding: 10px 40px 40px 40px;
+	padding: 10px 40px 40px 20px;
+}
+
+/****** Image SECTION Style ******/
+section {
+	padding: 0px 20px;
 }
 
 /****** Portfolio Image Style ******/
 .portimg {
 	padding: 20px 0px;
-}
-
-.portimgwide {
-	padding: 20px 0px 0px 0px;
 }
 
 /****** Paragraph Style ******/
@@ -107,24 +114,24 @@ p {
 	line-height: 1.5;
 	text-align: justify;
 	color: rgb(2, 2, 56);
-	padding: 0px 40px 10px 40px;
+	padding: 0px 20px 10px 20px;
 }
 
 /****** Form Padding ******/
 form {
-	padding: 40px 40px 60px 40px;
+	padding: 10px 20px 30px 20px;
 }
 
 /****** Button Style ******/
 .contactbtn {
-	margin-left: 40px;
+	margin-left: 20px;
 	width: 100px;
 	height: 60px;
 	background-color: rgb(2, 2, 56);
 }
 
 /****** Section Style ******/
-section {
+.bottom {
 	padding: 80px 0px;
 }
 
@@ -154,7 +161,10 @@ footer {
 	form {
 		padding: 0px 0px 20px 0px;
 	}
-	.contactbtn,
+	.contactbtn {
+		margin-left: 0;
+		margin-right: 0;
+	}
 	h1,
 	hr {
 		margin-left: 0;
