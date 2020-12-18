@@ -21,15 +21,21 @@ The purpose of this project was to create a persoalized portfolio with a respons
 * Personalized sticky footer with social media links
 * Semantic html
 ## Screen Shots ##
-**Laptop**
+
+### Laptop ###
+
 ![about-laptop](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/about-laptop.png)
 ![portfolio-laptop](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/portfolio-laptop.png)
 ![contact-laptop](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/contact-laptop.png)
-**Tablet**
+
+### Tablet ###
+
 ![about-tablet](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/about-tablet.png)
 ![portfolio-tablet](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/portfolio-tablet.png)
 ![contact-tablet](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/contact-tablet.png)
-**Mobile**
+
+### Mobile ###
+
 ![about-mobile](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/about-mobile.png)
 ![portfolio-mobile](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/portfolio-mobile.png)
 ![contact-mobile](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/contact-mobile.png)
