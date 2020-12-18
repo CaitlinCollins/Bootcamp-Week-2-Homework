@@ -4,6 +4,8 @@ body {
 	padding: 0;
 	margin: 0;
 	background-image: url(assets/backrougnd1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 /****** Navigation Style ******/
@@ -98,7 +100,8 @@ hr {
 
 /****** Image SECTION Style ******/
 section {
-	padding: 0px 20px;
+	padding: 20px;
+	margin: 0;
 }
 
 /****** Portfolio Image Style ******/
@@ -176,6 +179,9 @@ footer {
 	.bioimg {
 		padding-right: 0;
 		padding-left: 0;
+	}
+	.portimg {
+		padding: 20px 0px 0px 0px;
 	}
 }
 /****** Special styling for screens under 600px ******/
