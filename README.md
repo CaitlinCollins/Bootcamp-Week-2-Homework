@@ -11,7 +11,7 @@ Bootstap and CSS Mobile Responsive Portfolio
 
 [Deploy Link](https://github.com/CaitlinCollins/Responsive-Portfolio#deploy-link)
 ## Description ##
-The purpose of this project was to create a persoalized portfolio with a responsive design to ensure proper viewing on any size device or screen.
+The purpose of this project was to create a personalized portfolio with a responsive design to ensure proper viewing on any size device or screen.
 ## Technologies ##
 * Bootstrap CDN
 * Font Awesome
