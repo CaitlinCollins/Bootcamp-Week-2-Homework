@@ -191,6 +191,11 @@ a:active {
 	color: magenta !important;
 }
 
+/** Span Hover Style **/
+span:hover {
+	background-color: magenta !important;
+}
+
 /****** MEDIA QUERIES ******/
 
 /** Special styling for screens under 768px **/
