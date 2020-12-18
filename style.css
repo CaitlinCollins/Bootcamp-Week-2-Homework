@@ -61,6 +61,7 @@ hr {
 footer {
 	background-color: snow;
 	color: rgb(2, 2, 56);
+	font-size: 16px;
 	font-family: "Inknut Antiqua", sans-serif;
 	text-align: center;
 	padding-top: 15px;
@@ -89,8 +90,8 @@ p {
 
 /****** ELEMENTS -- PORTFOLIO ******/
 
-/** Image SECTION Style **/
-section {
+/** Image Figure Style **/
+figure {
 	padding: 20px;
 }
 
@@ -137,20 +138,10 @@ form {
 
 /** Social Icon Style **/
 .fa {
-	padding: 10px;
+	padding: 10px 0px 10px 10px;
 	font-size: 20px;
 	text-align: center;
 	text-decoration: none;
-	border-style: solid;
-	border-color: rgb(192, 185, 197);
-	border-width: 3px;
-}
-
-.fa-facebook .fa-linkedin {
-	color: rgb(2, 2, 56) !important; /* To override bootstrap */
-}
-
-.fa-instagram {
 	color: magenta !important; /* To override bootstrap */
 }
 
@@ -201,7 +192,7 @@ span:hover {
 /** Special styling for screens under 768px **/
 @media only screen and (max-width: 768px) {
 	article {
-		margin-left: 20px;
+		margin: 0 0 0 20px;
 		padding: 20px 20px 40px 20px;
 	}
 	form {
@@ -233,5 +224,12 @@ span:hover {
 	article {
 		margin: 0;
 		padding: 0px 10px 40px 10px;
+	}
+	figure {
+		margin: 0;
+		padding: 0;
+	}
+	footer {
+		font-size: 12px;
 	}
 }
