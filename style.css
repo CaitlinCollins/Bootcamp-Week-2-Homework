@@ -183,17 +183,17 @@ form {
 
 /** Link Hover Style **/
 a:hover {
-	color: rgb(192, 185, 197) !important;
+	color: rgb(192, 185, 197) !important; /* To override bootstrap */
 }
 
 /** Link Active Style **/
 a:active {
-	color: magenta !important;
+	color: magenta !important; /* To override bootstrap */
 }
 
 /** Span Hover Style **/
 span:hover {
-	background-color: magenta !important;
+	background-color: magenta !important; /* To override bootstrap */
 }
 
 /****** MEDIA QUERIES ******/
