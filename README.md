@@ -1,5 +1,5 @@
 # Responsive-Portfolio
-Bootstap and CSS Mobile Responsive Portfolio
+Bootstrap and CSS Mobile Responsive Portfolio
 ## Table of Contents ##
 [Description](https://github.com/CaitlinCollins/Responsive-Portfolio#description)
 
