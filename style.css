@@ -2,7 +2,7 @@
 
 /** Body Style **/
 body {
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 	padding: 0;
 	margin: 0;
 	background-image: url(assets/backrougnd1.jpg);
@@ -169,6 +169,10 @@ form {
 	height: 60px;
 	background-color: rgb(2, 2, 56);
 }
+/** Section Style **/
+.bottomcontact {
+	padding: 180px 0px;
+}
 
 /****** SELECTOR STYLE ******/
 
@@ -198,10 +202,6 @@ span:hover {
 	form {
 		padding: 0px 0px 20px 0px;
 	}
-	.contactbtn {
-		margin-left: 0;
-		margin-right: 0;
-	}
 	h1,
 	hr {
 		margin-left: 0;
@@ -217,6 +217,13 @@ span:hover {
 	.portimg {
 		padding: 20px 0px 0px 0px;
 	}
+	.contactbtn {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.bottomcontact {
+		padding: 120px 0px;
+	}
 }
 
 /** Special styling for screens under 600px **/
@@ -231,5 +238,8 @@ span:hover {
 	}
 	footer {
 		font-size: 12px;
+	}
+	.bottomcontact {
+		padding: 60px 0px;
 	}
 }
