@@ -1,13 +1,13 @@
 # Responsive-Portfolio
 Bootstap and CSS Mobile Responsive Portfolio
 ## Table of Contents ##
-[Description] (https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/README.md#description)
+[Description]
 
-[Technologies] (#technologies)
+[Technologies]
 
-[Features] (#features)
+[Features]
 
-[Screen Shots] (#screen-shots)
+[Screen Shots]
 
 [Deploy] (#deploy)
 ## Description ##
