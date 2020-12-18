@@ -2,9 +2,13 @@
 Bootstap and CSS Mobile Responsive Portfolio
 ## Table of Contents ##
 [Description](https://github.com/CaitlinCollins/Responsive-Portfolio#description)
+
 [Technologies](https://github.com/CaitlinCollins/Responsive-Portfolio#technologies)
+
 [Features](https://github.com/CaitlinCollins/Responsive-Portfolio#features)
+
 [Screen Shots](https://github.com/CaitlinCollins/Responsive-Portfolio#screen-shots)
+
 [Deploy Link](https://github.com/CaitlinCollins/Responsive-Portfolio#deploy-link)
 ## Description ##
 The purpose of this project was to create a persoalized portfolio with a responsive design to ensure proper viewing on any size device or screen.
