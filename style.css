@@ -144,6 +144,21 @@ form {
 	text-decoration: none;
 	color: magenta !important; /* To override bootstrap */
 }
+.download {
+	float: right;
+	border: solid;
+	size: 1px;
+	color: snow;
+	background-color:  rgb(2, 2, 56);
+	margin-top: 5px;
+	margin-right: 20px;
+}
+.download:hover {
+	color: rgb(192, 185, 197);
+}
+.download:active {
+	color: magenta;
+}
 
 /****** CLASSES -- ABOUT ******/
 
