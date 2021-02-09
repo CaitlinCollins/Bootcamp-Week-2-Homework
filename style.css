@@ -1,5 +1,4 @@
 /****** ELELMENT style all pages ******/
-
 /** Body Style **/
 body {
 	/* box-sizing: border-box; */
@@ -9,44 +8,40 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
-
 /** Navigation Style **/
 nav {
 	background-color: rgb(221, 218, 218);
+	height: 60px;
 	border-bottom-style: solid;
 	border-width: 8px;
 	border-color: rgb(192, 185, 197);
 }
-
 /** Link Style **/
 .nav-link {
 	font-family: "Inknut Antiqua", sans-serif;
 	font-size: 16px;
 	color: rgb(2, 2, 96) !important; /* To override bootstrap */
 }
-
 /** Header Style **/
 header {
-	padding: 40px 0px;
+	padding: 20px 0px;
 }
-
 /** Article Style **/
 article {
 	background-color:rgb(221, 218, 218);
 	overflow: auto;
 	margin: 0px 40px;
-	padding: 0px 20px 60px 20px;
+	padding: 0px 20px 20px 20px;
+	border-radius: 20px;
 }
-
 /** Aside Style **/
 aside {
 	background-color:rgb(221, 218, 218);
 	overflow: auto;
-	margin: 40px 40px;
+	margin: 40px 20px;
 	padding: 40px 20px;
-	border-radius: 50px;
+	border-radius: 20px;
 }
-
 /** H1 Style **/
 h1 {
 	font-family: "Inknut Antiqua", serif;
@@ -55,7 +50,6 @@ h1 {
 	color: rgb(2, 2, 56);
 	padding: 40px 0px 0px 20px;
 }
-
 /** H2 Style **/
 h2 {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -63,18 +57,15 @@ h2 {
 	color: rgb(2, 2, 56);
 	font-size: 36px;
 }
-
 /** H3 Style **/
 h3 {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	padding-top: 20px;
 }
-
 /** Horizontal Rule Style **/
 hr {
 	margin: 20px;
 }
-
 /****** Footer Style ******/
 footer {
 	background-color:rgb(221, 218, 218);
@@ -82,8 +73,8 @@ footer {
 	font-size: 16px;
 	font-family: "Inknut Antiqua", sans-serif;
 	text-align: center;
-	padding-top: 15px;
-	height: 80px;
+	padding-bottom: 5px;
+	height: 50px;
 	width: 100%;
 	position: fixed;
 	left: 0;
@@ -94,10 +85,9 @@ footer {
 }
 
 /****** ELEMENTS -- ABOUT ******/
-
 /** Paragraph Style **/
-p, .languages, .tools .contactP{
-	font-size: 24px;
+p, .languages, .tools, .contactP{
+	font-size: 20px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	line-height: 1.5;
 	text-align: justify;
@@ -106,28 +96,24 @@ p, .languages, .tools .contactP{
 }
 
 /****** ELEMENTS -- PORTFOLIO ******/
-
 /** Image Figure Style **/
 figure {
 	padding: 20px;
 }
 
 /****** ELEMENTS -- CONTACT ******/
-
 /** Form Padding **/
 form {
 	padding: 10px 20px 30px 20px;
 }
 
 /****** CLASS style all pages ******/
-
 /** Navbar Brand (Name) Style **/
 /** UL Style **/
 .navigation {
 	margin-left: auto;
 	margin-right: 20px;
 }
-
 .navbar-brand {
 	font-family: "Limelight", cursive;
 	font-size: 28px;
@@ -136,29 +122,24 @@ form {
 	padding-bottom: 0px;
 	margin-left: 20px;
 }
-
 /** Navbar Button Margin **/
 .navbar-toggler {
 	margin-right: 20px;
 }
-
 /** Navbar Collapsed Menu **/
 .navbar-collapse {
 	text-align: center;
 	padding-top: 20px;
 }
-
 /** Current Link Style **/
 .active {
 	font-weight: bold;
 	font-size: 18px;
 }
-
 /** Section Style **/
 .bottom {
-	padding: 80px 0px;
+	padding: 120px 0px;
 }
-
 /** Social Icon Style **/
 .icon {
 	padding: 10px 0px 10px 10px;
@@ -186,40 +167,30 @@ form {
 }
 
 /****** CLASSES -- ABOUT ******/
-/** Article Style **/
-.about {
-	border-radius: 50px;
-}
-
 /** Bio Image Style **/
 .bioimg {
 	float: left;
-	max-width: 400px;
-	padding: 10px 40px 40px 20px;
+	max-width: 340px;
+	padding: 20px 40px 40px 20px;
 }
 /** First Paragraph Style **/
 .firstP {
-	padding-top: 40px;
+	padding-top: 20px;
 }
 /** UL Style **/
 .languages, .tools {
 	display: inline-block;
-	margin-left: 60px;
-	font-size: 26px;
+	font-size: 24px;
 	color: purple;
 }
 /** LI Style **/
 .item {
 	margin-left: 20px;
 	color: rgb(2, 2, 56);
-	font-size: 20px;
+	font-size: 18px;
 }
 
 /****** CLASSES -- PORTFOLIO ******/
-/** Article Style **/
-.port {
-	border-radius: 50px;
-}
 /** Portfolio Image Style **/
 .portimg {
 	max-width: 750px;
@@ -236,11 +207,7 @@ form {
 }
 
 /****** CLASSES -- CONTACT ******/
-
 /** Button Style **/
-.cont {
-	border-radius: 50px;
-}
 .contactbtn {
 	margin-left: 20px;
 	width: 100px;
@@ -249,11 +216,10 @@ form {
 }
 /** Section Style **/
 .bottomcontact {
-	padding: 180px 0px;
+	padding: 130px 0px;
 }
-
 .contactP {
-	font-size: 22px;
+	font-size: 20px;
 	font-family: Calibri;
 	color: rgb(2, 2, 56);
 	padding-top: 10px;
@@ -261,17 +227,14 @@ form {
 }
 
 /****** SELECTOR STYLE ******/
-
 /** Link Hover Style **/
 .nav-link:hover, a:hover{
 	color: rgb(192, 185, 197) !important; /* To override bootstrap */
 }
-
 /** Link Active Style **/
 .nav-link:active, a:active {
 	color: magenta !important; /* To override bootstrap */
 }
-
 /** Span Hover Style **/
 span:hover {
 	background-color: magenta !important; /* To override bootstrap */
@@ -279,53 +242,318 @@ span:hover {
 
 /****** MEDIA QUERIES ******/
 
-/** Special styling for screens under 768px **/
-@media only screen and (max-width: 768px) {
-	article {
-		margin: 0 0 0 20px;
-		padding: 20px 20px 40px 20px;
-	}
-	form {
-		padding: 0px 0px 20px 0px;
-	}
-	h1,
-	hr {
-		margin-left: 0;
-		margin-right: 0;
-		padding-left: 0;
-		text-align: center;
-	}
-	p,
-	.bioimg {
-		padding-right: 0;
-		padding-left: 0;
-	}
+/** Special styling for iPad Pro Landscape/ HD Laptops **/
+@media only screen and (max-width: 1366px) {
 	.portimg {
-		padding: 20px 0px 0px 0px;
-	}
-	.contactbtn {
-		margin-left: 0;
-		margin-right: 0;
+		max-width: 700px;
 	}
 	.bottomcontact {
-		padding: 120px 0px;
+		padding: 150px 0px;
+
+	}
+}
+/** Special styling for iPad Pro 10" **/
+@media only screen and (max-width: 1112px) {
+	.bioimg {
+		max-width: 260px;
+	}
+	.portimg {
+		max-width: 540px;
+	}
+}
+/** Special styling for iPad Pro 12" (portrait) **/
+@media only screen and (max-width: 1024px) {
+	.bioimg {
+		max-width: 290px;
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+	.bottom {
+		padding: 240px 0px;
+
+	}
+	.portimg{
+		max-width: 480px;
+	}
+	aside {
+		margin-top: 20px;
+	}
+	.bottomcontact {
+		padding: 330px 0px;
 	}
 }
 
-/** Special styling for screens under 600px **/
-@media only screen and (max-width: 600px) {
-	article {
-		margin: 0;
-		padding: 0px 10px 40px 10px;
+/** Special styling for iPad Pro 10" **/
+@media only screen and (max-width: 834px) {
+	nav {
+		height: 80px;
+	}
+	.nav-link {
+		text-align: right;
+	}
+	h1 {
+		font-size: 32px;
+	}
+	.download {
+		margin-right: 0px;
+		margin-top: 0px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	.portimg {
+		max-width: 360px;
+	}
+	aside {
+		padding: 10px;
+	}
+	h3 {
+		font-size: 22px;
+	}
+	.contactP {
+		font-size: 16px;
+		padding-left: 10px;
+	}
+}
+/** Special styling for iPhone X Landscape **/
+@media only screen and (max-width: 812px) {
+	.download {
+		font-size: 14px;
+	}
+	.bioimg {
+		max-width: 420px;
+	}
+	.languages, .tools {
+		padding-right: 14px;
+	}
+	.portimg {
+		padding-left: 0px;
+	}
+	.deploy {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.contactbtn {
+		margin-left: 80px;
+	}
+	.contactP {
+		padding-left: 2px;
+	}
+}
+/** Special styling for iPad **/
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size: 30px;
+	}
+	.download {
+		font-size: 13px;
+	}
+	.bioimg {
+		max-width: 240px;
+		padding-top: 30px;
+	}
+	.languages, .tools {
+		padding-left: 20px;
+		padding-right: 0px;
 	}
 	figure {
-		margin: 0;
-		padding: 0;
+		padding: 0px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	.contactP {
+		font-size: 15px;
+	}
+	
+}
+/** Special styling for iPhone 8 Plus **/
+@media only screen and (max-width: 736px) {
+	h1 {
+		font-size: 28px;
+	}
+	.download {
+		font-size: 12px;
+	}
+	.bioimg {
+		max-width: 360px;
+	}
+	.portimg {
+		max-width: 350px;
+	}
+	.contactbtn {
+		margin-left: 60px;
+	}
+	.contactP {
+		font-size: 14px;
+	}
+}
+/** Special styling for iPhone 6-8 **/
+@media only screen and (max-width: 667px) {
+	h1 {
+		font-size: 24px;
+		padding-left: 10px;
+	}
+	.download {
+		font-size: 11px;
+	}
+	.bioimg {
+		max-width: 320px;
+		padding-top: 0px;
+	}
+	.languages, .tools {
+		padding-left: 10px;
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 26px;
+	}
+	.portimg {
+		max-width: 300px;
+	}
+	.deploy {
+		margin-right: 0px;
+		font-size: 14px;
+	}
+	.cont {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.contactbtn {
+		margin-left: 45px;
+		height: 40px;
+	}
+	aside {
+		margin-left: 0px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+	.contactP {
+		padding-left: 0px;
+	}
+}
+/** Special styling for iPhone SE **/
+@media only screen and (max-width: 568px) {
+	h1{
+		font-size: 34px;
+	}
+	.download {
+		font-size: 14px;
+	}
+	.bioimg {
+		max-width: 445px;
+	}
+	.languages, .tools {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.portimg {
+		max-width: 425px;
+	}
+	.contactbtn {
+		margin-left: 20px;
+	}
+	aside {
+		margin-left: 20px;
+	}
+	h3 {
+		font-size: 24px;
+	}
+	.contactP {
+		font-size: 18px;
+	}
+	.languages, .tools {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+}
+/** Special styling for iPhone 8 Plus **/
+@media only screen and (max-width: 414px) {
+	.about {
+		margin: 0px;
+	}
+	.port {
+		margin: 0px;
+	}
+	h1 {
+		font-size: 30px;
+	}
+	.download {
+		font-size: 13px;
+	}
+	.bioimg {
+		max-width: 370px;
+	}
+	.portimg {
+		max-width: 350px;
+	}
+	footer {
+		font-size: 14px;
+	}
+	.icon {
+		font-size: 16px;
+	}
+	.cont {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	aside {
+		margin-left: 0px;
+		margin-right: 0px;
+
+}
+/** Special styling for iPhone 6-10 **/
+@media only screen and (max-width: 375px) {
+	h1 {
+		font-size: 28px;
+	}
+	.download {
+		font-size: 10px;
+	}
+	.bioimg {
+		max-width: 330px;
+	}
+	.languages, .tools {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	.portimg {
+		max-width: 310px;
+	}
+}
+/** Special styling for iPhone SE **/
+@media only screen and (max-width: 320px) {
+	.navbar-brand {
+		font-size: 24px;
 	}
 	footer {
 		font-size: 12px;
+		padding-bottom: 0px;
+		padding-top: 5px;
 	}
-	.bottomcontact {
-		padding: 60px 0px;
+	.icon {
+		font-size: 14px;
 	}
+	.about {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	.bioimg {
+		max-width: 305px;
+	}
+	.languages, .tools {
+		padding-left: 0px;
+	}
+	.portimg {
+		max-width: 255px;
+	}
+	.contactbtn {
+		margin-left: 10px;
+	}
+
 }
