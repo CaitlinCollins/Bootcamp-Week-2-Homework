@@ -16,14 +16,14 @@
 
 <body>
     <!-- Bootstrap Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Caitlin Collins</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-2">
+                <ul class="navbar-nav navigation">
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
@@ -39,18 +39,16 @@
     </nav>
     <!-- Main Container -->
     <main class="container-fluid">
-
         <!-- Spacer (No Content) -->
         <div class="row">
             <div class="col-sm-12">
                 <header></header>
             </div>
         </div>
-
         <!-- Main Article -->
         <div class="row">
             <div class="col-sm-8">
-                <article>
+                <article class="about">
                     <!-- H1 -->
                     <div class="row">
                         <div class="col-sm-12">
@@ -62,20 +60,31 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <img class="img-fluid bioimg" src="assets/Caitlin.JPG" alt="Photo of Caitlin">
-                            <p id="firstP">I'm a Full-Stack Computer Programmer specializing in creative concepts and user-friendly layouts.
+                            <p class="firstP">I'm a Full-Stack Computer Programmer specializing in creative concepts and user-friendly, responsive layouts.
                             </p>
                             <p>I also work locally as an actor, model, writer, and film producer which keeps my head in the creative game.
                             </p>
-                            <p>Programming allows me to flex my problem-solving muscles while honing in on my creative intuitions. 
+                            <p>Programming allows me to flex my problem-solving muscles while honing in on my creative instincts. 
                             </p>
-                            <p>Languages: 
-                                <ul class="languages">
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
+                            <div>
+                                <ul class="languages">Languages:
+                                    <li class="item">HTML</li>
+                                    <li class="item">CSS</li>
+                                    <li class="item">JavaScript</li>
                                 </ul>
-                            </p>
-                            <p>Watch out world!
+                                <ul class="tools">Tools:
+                                    <li class="item">JQuery</li>
+                                    <li class="item">Node.js</li>
+                                    <li class="item">AJAX</li>
+                                </ul>
+                                <ul class="tools">
+                                    <li class="item">JSON</li>
+                                    <li class="item">Bootstrap</li>
+                                    <li class="item">GitHub</li>
+                                    <li class="item">Slack</li>
+                                </ul>
+                            </div>
+                            <p>Coming to a computer near you!
                             </p>
                         </div>
                     </div>
@@ -94,10 +103,11 @@
         <!-- Footer -->
         <div class= "row">
             <div class="col-sm-12">
-            <footer>© Copyright 2020 Caitlin Collins
-                <a href="https://www.facebook.com/caitlincollinsgraber" target="_blank" class="fa fa-facebook"></a>
-                <a href="https://www.instagram.com/caitlincollinsactor/" target="_blank" class="fa fa-instagram"></a>
-                <a href="https://www.linkedin.com/in/caitlin-collins-actorprogrammer/" target="_blank" class="fa fa-linkedin"></a>
+            <footer>© Copyright 2021 Caitlin Collins
+                <a href="https://www.facebook.com/caitlincollinsgraber" target="_blank" class="fa fa-facebook icon"></a>
+                <a href="https://www.instagram.com/caitlincollinsactor/" target="_blank" class="fa fa-instagram icon"></a>
+                <a href="https://www.linkedin.com/in/caitlin-collins-actorprogrammer/" target="_blank" class="fa fa-linkedin icon"></a>
+                <a href="https://github.com/CaitlinCollins" target="_blank" class="fa fa-github-square icon"></a>
             </footer>
             </div>
         </div>
