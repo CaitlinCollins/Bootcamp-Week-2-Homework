@@ -19,7 +19,7 @@ nav {
 }
 
 /** Link Style **/
-a {
+.nav-link {
 	font-family: "Inknut Antiqua", sans-serif;
 	font-size: 16px;
 	color: rgb(2, 2, 96) !important; /* To override bootstrap */
@@ -38,6 +38,15 @@ article {
 	padding: 0px 20px 60px 20px;
 }
 
+/** Aside Style **/
+aside {
+	background-color:rgb(221, 218, 218);
+	overflow: auto;
+	margin: 40px 40px;
+	padding: 40px 20px;
+	border-radius: 50px;
+}
+
 /** H1 Style **/
 h1 {
 	font-family: "Inknut Antiqua", serif;
@@ -53,6 +62,12 @@ h2 {
 	padding-left: 15px;
 	color: rgb(2, 2, 56);
 	font-size: 36px;
+}
+
+/** H3 Style **/
+h3 {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding-top: 20px;
 }
 
 /** Horizontal Rule Style **/
@@ -81,7 +96,7 @@ footer {
 /****** ELEMENTS -- ABOUT ******/
 
 /** Paragraph Style **/
-p, .languages, .tools{
+p, .languages, .tools .contactP{
 	font-size: 24px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	line-height: 1.5;
@@ -223,6 +238,9 @@ form {
 /****** CLASSES -- CONTACT ******/
 
 /** Button Style **/
+.cont {
+	border-radius: 50px;
+}
 .contactbtn {
 	margin-left: 20px;
 	width: 100px;
@@ -234,15 +252,23 @@ form {
 	padding: 180px 0px;
 }
 
+.contactP {
+	font-size: 22px;
+	font-family: Calibri;
+	color: rgb(2, 2, 56);
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
 /****** SELECTOR STYLE ******/
 
 /** Link Hover Style **/
-a:hover {
+.nav-link:hover, a:hover{
 	color: rgb(192, 185, 197) !important; /* To override bootstrap */
 }
 
 /** Link Active Style **/
-a:active {
+.nav-link:active, a:active {
 	color: magenta !important; /* To override bootstrap */
 }
 
