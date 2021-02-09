@@ -152,7 +152,7 @@ form {
 .download {
 	float: right;
 	border: solid;
-	border-radius: 50px;
+	border-radius: 10px;
 	size: 1px;
 	color: snow;
 	background-color:  rgb(2, 2, 56);
@@ -200,7 +200,7 @@ form {
 .deploy {
 	margin-left: 20px;
 	border: solid;
-	border-radius: 50px;
+	border-radius: 10px;
 	size: 1px;
 	color: snow;
 	background-color:  purple; 
