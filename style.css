@@ -11,7 +11,7 @@ body {
 /** Navigation Style **/
 nav {
 	background-color: rgb(221, 218, 218);
-	height: 60px;
+	height: auto;
 	border-bottom-style: solid;
 	border-width: 8px;
 	border-color: rgb(192, 185, 197);
@@ -286,7 +286,7 @@ span:hover {
 /** Special styling for iPad Pro 10" **/
 @media only screen and (max-width: 834px) {
 	nav {
-		height: 80px;
+		height: auto;
 	}
 	.nav-link {
 		text-align: right;
