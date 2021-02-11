@@ -26,41 +26,17 @@ The purpose of this project was to create a personalized portfolio with a respon
 * Semantic html
 ## Screen Shots ##
 
-### Laptop - About ###
+### About ###
 
-![about-laptop](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/about-laptop.png)
+![about-laptop](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/about.png)
 
-### Laptop - Portfolio ###
+### Portfolio ###
 
-![portfolio-laptop](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/portfolio-laptop.png)
+![portfolio-laptop](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/portfolio.png)
 
-### Laptop - Contact ###
+### Contact ###
 
-![contact-laptop](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/contact-laptop.png)
-
-### Tablet - About ###
-
-![about-tablet](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/about-tablet.png)
-
-### Tablet - Portfolio ###
-
-![portfolio-tablet](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/portfolio-tablet.png)
-
-### Tablet - Contact ###
-
-![contact-tablet](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/contact-tablet.png)
-
-### Mobile - About ###
-
-![about-mobile](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/about-mobile.png)
-
-### Mobile - Portfolio ###
-
-![portfolio-mobile](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/portfolio-mobile.png)
-
-### Mobile - Contact ###
-
-![contact-mobile](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/contact-mobile.png)
+![contact-laptop](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/contact.png)
 
 ## Deploy Link ##
 https://caitlincollins.github.io/Responsive-Portfolio/
