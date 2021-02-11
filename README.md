@@ -28,15 +28,15 @@ The purpose of this project was to create a personalized portfolio with a respon
 
 ### About ###
 
-![about-laptop](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/about.png)
+![about-laptop](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/About.png)
 
 ### Portfolio ###
 
-![portfolio-laptop](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/portfolio.png)
+![portfolio-laptop](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/Portfolio.png)
 
 ### Contact ###
 
-![contact-laptop](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/contact.png)
+![contact-laptop](https://github.com/CaitlinCollins/Responsive-Portfolio/blob/main/assets/screenshots/Contact.png)
 
 ## Deploy Link ##
 https://caitlincollins.github.io/Responsive-Portfolio/
