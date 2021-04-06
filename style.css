@@ -86,13 +86,16 @@ footer {
 
 /****** ELEMENTS -- ABOUT ******/
 /** Paragraph Style **/
-p, .languages, .tools, .contactP{
-	font-size: 20px;
+p, .languages, .tools, .contactP, figcaption{
+	font-size: 18px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	line-height: 1.5;
-	text-align: justify;
+	text-align: left;
 	color: rgb(2, 2, 56);
-	padding: 0px 20px 10px 20px;
+}
+
+figcaption {
+	padding-left: 25px;
 }
 
 /****** ELEMENTS -- PORTFOLIO ******/
@@ -171,30 +174,52 @@ form {
 .bioimg {
 	float: left;
 	max-width: 340px;
-	padding: 20px 40px 40px 20px;
+	padding: 10px 20px 20px 10px;
 }
 /** First Paragraph Style **/
 .firstP {
 	padding-top: 20px;
 }
 /** UL Style **/
-.languages, .tools {
-	display: inline-block;
+.languages, .tools, .tools2 {
 	font-size: 24px;
 	color: purple;
+}
+
+.tools {
+	display: inline-block;
+}
+
+.tools2 {
+	display: inline-block;
+	margin-top: 35px;
 }
 /** LI Style **/
 .item {
 	margin-left: 20px;
 	color: rgb(2, 2, 56);
-	font-size: 18px;
+	font-size: 16px;
+}
+
+/** Tag Style */
+.tag {
+	float: left;
 }
 
 /****** CLASSES -- PORTFOLIO ******/
 /** Portfolio Image Style **/
+.card {
+	margin-bottom: 40px;
+	background-color: rgb(192, 185, 197);
+	animation: fadeInDownBig;
+	animation-duration: 3s;
+	padding: 40px;
+}
 .portimg {
 	max-width: 750px;
-	padding: 20px 0px 60px 20px;
+	margin-right: auto;
+	margin-left: auto;
+	
 }
 /** Deploy Button Style **/
 .deploy {

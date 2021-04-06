@@ -1,128 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;500;700&family=Limelight&family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+			crossorigin="anonymous"
+		></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;500;700&family=Limelight&family=Quicksand:wght@300;400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
 
-    <link rel="stylesheet" href="style.css">
-    
-    <title>Responsive Student Portfolio</title>
-</head>
+		<link rel="stylesheet" href="style.css" />
 
-<body>
-    <!-- Bootstrap Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Caitlin Collins</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav navigation">
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">About<span class="sr-only"></span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- Main Container -->
-    <main class="container-fluid">
-        <!-- Spacer (No Content) -->
-        <div class="row">
-            <div class="col-sm-12">
-                <header></header>
-            </div>
-        </div>
-        <!-- Main Article -->
-        <div class="row">
-            <div class="col-sm-8">
-                <article class="about">
-                    <!-- H1 -->
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h1>About Me<span><a href="assets/Caitlin_Collins_Full_Stack_Resume.pdf" download="Cait_Collins_Resume" target="_blank" class="btn btn-outline download">Download Resume!</a></span></h1>
-                            <hr>
-                        </div>
-                    </div>
-                    <!-- Bio and Image -->
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <img class="img-fluid bioimg" src="assets/Caitlin.JPG" alt="Photo of Caitlin">
-                            <p class="firstP">I'm a Full-Stack Computer Programmer specializing in creative concepts and user-friendly, responsive layouts.
-                            <br>
-                            I also work locally as an actor, model, writer, and film producer which keeps my head in the creative game.
-                            <br>
-                            Programming allows me to flex my problem-solving muscles while honing in on my creative instincts. 
-                            </p>
-                            <div class="languages">Languages:
-                                <ul>
-                                    <li class="item">HTML</li>
-                                    <li class="item">CSS</li>
-                                    <li class="item">JavaScript</li>
-                                </ul>
+		<title>Responsive Student Portfolio</title>
+	</head>
+
+	<body>
+		<!-- Bootstrap Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">Caitlin Collins</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav navigation">
+						<li class="nav-item">
+							<a class="nav-link" href="portfolio.html">Portfolio</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html"
+								>About<span class="sr-only"></span
+							></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Main Container -->
+		<main class="container-fluid">
+			<!-- Spacer (No Content) -->
+			<div class="row">
+				<div class="col-sm-12">
+					<header></header>
+				</div>
+			</div>
+			<!-- Main Article -->
+			<div class="row">
+				<div class="col-sm-8">
+					<article class="about">
+						<!-- H1 -->
+						<div class="row">
+							<div class="col-sm-12">
+								<h1>
+									About Me<span
+										><a
+											href="assets/Caitlin_Collins_Full_Stack_Resume.pdf"
+											download="Cait_Collins_Resume"
+											target="_blank"
+											class="btn btn-outline download"
+											>Download Resume!</a
+										></span
+									>
+								</h1>
+								<hr />
+							</div>
+						</div>
+						<!-- Bio and Image -->
+						<div class="row">
+							<div class="col-sm-6">
+								<figure>
+									<img
+										class="img-fluid bioimg"
+										src="assets/Caitlin.JPG"
+										alt="Photo of Caitlin"
+									/>
+									<figcaption>Coming soon to a computer near you!</figcaption>
+								</figure>
                             </div>
-                            <div class="tools">Tools:
-                                <ul>
-                                    <li class="item">JQuery</li>
-                                    <li class="item">Node.js</li>
-                                    <li class="item">AJAX</li>
-                                </ul>
-                            </div>
-                            <div class="tools">  
-                                <ul>
-                                    <li class="item">JSON</li>
-                                    <li class="item">Bootstrap</li>
-                                    <li class="item">GitHub</li>
-                                    <li class="item">Slack</li>
-                                </ul>
-                            </div>
-                            <p>
+                                <div class="col-md-6">
+								<p class="firstP">
+									I'm a Full-Stack Computer Programmer specializing in creative
+									concepts and user-friendly, responsive layouts.
+									<br />
+									I also work locally as an actor, model, writer, and film
+									producer which keeps my head in the creative game.
+									<br />
+									Programming allows me to flex my problem-solving muscles while
+									honing in on my creative instincts.
+								</p>
+								<div class="languages">
+									Languages:
+									<ul>
+										<li class="item">HTML</li>
+										<li class="item">CSS</li>
+										<li class="item">JavaScript</li>
+									</ul>
+								</div>
+								<div class="tools">
+									Tools:
+									<ul>
+										<li class="item">JQuery</li>
+										<li class="item">Node.js</li>
+										<li class="item">Handlebars.js</li>
+										<li class="item">MySql</li>
+										<li class="item">Seqelize</li>
+									</ul>
+								</div>
+								<div class="tools2">
+									<ul>
+										<li class="item">Express</li>
+										<li class="item">APIs</li>
+										<li class="item">Bootstrap</li>
+										<li class="item">GitHub</li>
+										<li class="item">Heroku</li>
+									</ul>
+								</div>
+								<!-- <p class="tag">
                             Coming soon to a computer near you!
-                            </p>
+                            </p> -->
+							</div>
                         </div>
-                    </div>
-                </article>
-            </div>
-            <div class="col-sm-4"></div>
-        </div>
+						</div>
+					</article>
+				</div>
+				<div class="col-sm-4"></div>
+			</div>
 
-        <!-- Spacer (No Content) -->
-        <div class="row">
-            <div class="col-sm-12">
-                <header class="bottom"></header>
-            </div>
-        </div>
-    
-        <!-- Footer -->
-        <div class= "row">
-            <div class="col-sm-12">
-            <footer>© Copyright 2021 Caitlin Collins
-                <a href="https://www.facebook.com/caitlincollinsgraber" target="_blank" class="fa fa-facebook icon"></a>
-                <a href="https://www.instagram.com/caitlincollinsactor/" target="_blank" class="fa fa-instagram icon"></a>
-                <a href="https://www.linkedin.com/in/caitlin-collins-actorprogrammer/" target="_blank" class="fa fa-linkedin icon"></a>
-                <a href="https://github.com/CaitlinCollins" target="_blank" class="fa fa-github-square icon"></a>
-            </footer>
-            </div>
-        </div>
-    </main>
+			<!-- Spacer (No Content) -->
+			<div class="row">
+				<div class="col-sm-12">
+					<header class="bottom"></header>
+				</div>
+			</div>
 
-    <!-- jQuery CDN -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <!-- Bootstrap JavaScript CDN -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+			<!-- Footer -->
+			<div class="row">
+				<div class="col-sm-12">
+					<footer>
+						© Copyright 2021 Caitlin Collins
+						<a
+							href="https://www.facebook.com/caitlincollinsgraber"
+							target="_blank"
+							class="fa fa-facebook icon"
+						></a>
+						<a
+							href="https://www.instagram.com/caitlincollinsactor/"
+							target="_blank"
+							class="fa fa-instagram icon"
+						></a>
+						<a
+							href="https://www.linkedin.com/in/caitlin-collins-actorprogrammer/"
+							target="_blank"
+							class="fa fa-linkedin icon"
+						></a>
+						<a
+							href="https://github.com/CaitlinCollins"
+							target="_blank"
+							class="fa fa-github-square icon"
+						></a>
+					</footer>
+				</div>
+			</div>
+		</main>
 
-</body>
+		<!-- jQuery CDN -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<!-- Bootstrap JavaScript CDN -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	</body>
 </html>
